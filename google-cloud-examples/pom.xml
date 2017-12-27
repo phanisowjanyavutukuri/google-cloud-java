@@ -113,6 +113,13 @@
       </plugin>
     </plugins>
   </build>
+  
+  <dependency>
+    <groupId>com.google.appengine.tools</groupId>
+    <artifactId>appengine-gcs-client</artifactId>
+    <version>0.7</version>
+</dependency>
+  
   <profiles>
     <profile>
       <!-- We use the snippets profile to run snippets ITs -->
